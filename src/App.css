@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    display: flex;
+    --container-box-outline-color: transparent;
+    --content-box-outline-color: transparent;
+}
+
+main.show-outline {
+    --container-box-outline-color: darkgoldenrod;
+    --content-box-outline-color: royalblue;
+}
+
+.left,
+.right {
+    flex: 1;
+}
+
+.blocks {
+    min-height: 50vh;
+    padding: 0 8px;
+}
+
+.left .blocks {
+    border-right: dashed 2px silver;
+}
+
+h3 {
+    text-align: center;
+}

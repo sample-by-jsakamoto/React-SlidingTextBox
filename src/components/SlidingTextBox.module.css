@@ -1,0 +1,19 @@
+.container-box {
+    outline: 2px dashed var(--container-box-outline-color);
+    outline-offset: -3px;
+    position: relative;
+    overflow: hidden;
+    min-height: 0;
+    transition: min-height 0.5s linear;
+}
+
+.content-box {
+    outline: 2px dashed var(--content-box-outline-color);
+    outline-offset: -8px;
+    padding: 8px 24px;
+    position: absolute;
+}
+
+.container-box.initial .content-box {
+    bottom: 0;
+}

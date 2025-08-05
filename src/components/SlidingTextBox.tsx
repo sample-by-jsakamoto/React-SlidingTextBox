@@ -33,7 +33,6 @@ export const SlidingTextBox = ({ text }: { text: string }) => {
     const containerBox = containerBoxRef.current;
     if (!containerBox) return;
     const { dispose } = initialize(containerBox);
-    updateHeight(containerBox);
     return () => dispose();
   }, []);
 

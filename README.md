@@ -1,6 +1,6 @@
-# Sliding TextBox Demo
+# Sliding TextBox Demo (React)
 
-A demonstration of smooth scrolling implementation to improve readability in translation subtitle systems.
+This is a React demo that showcases a smooth scrolling implementation to improve readability in translated subtitle systems. (You can see the Blazor version [here](https://github.com/sample-by-jsakamoto/Blazor-SlidingTextBox).)
 
 When new text is added, typical implementations cause existing text to jump abruptly, making it difficult to read. The SlidingTextBox component solves this problem with smooth animation display.
 
@@ -21,23 +21,30 @@ When new text is added, typical implementations cause existing text to jump abru
 
 ### Installation
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/sample-by-jsakamoto/React-SlidingTextBox.git
-   ```
+
+```bash
+git clone https://github.com/sample-by-jsakamoto/React-SlidingTextBox.git
+```
+
 2. Navigate to the project directory:
-   ```bash
-   cd React-SlidingTextBox
-   ```
+
+```bash
+cd React-SlidingTextBox
+```
+
 3. Install dependencies:
-   ```bash
-   npm ci
-   ```
+
+```bash
+npm ci
+```
+
 ### Running the Application
 
 4. Start the development server:
-   ```bash
-    npm run dev
-    ```
+
+```bash
+npm run dev
+```
 
 ## License
 

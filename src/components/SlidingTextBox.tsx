@@ -2,11 +2,12 @@ import { useEffect, useRef } from "react";
 import styles from "./SlidingTextBox.module.css";
 
 const initialize = (containerBox: HTMLElement) => {
+  const contentBox = containerBox.querySelector<HTMLElement>("." + styles.contentBox);
+
   const resizeObserver = new ResizeObserver((_) => {
     containerBox.style.minHeight = contentBox?.scrollHeight + "px";
   });
 
-  const contentBox = containerBox.querySelector<HTMLElement>("." + styles.contentBox);
   if (contentBox) resizeObserver.observe(contentBox);
 
   return {
